@@ -1,0 +1,14 @@
+# Compiled binaries
+julia_set_cuda
+*.o
+
+# Output files
+*.pgm
+
+# Backup files
+*.bak
+
+# CUDA compilation artifacts
+*.fatbin
+*.cubin
+*.ptx
