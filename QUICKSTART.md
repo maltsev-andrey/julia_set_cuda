@@ -1,12 +1,10 @@
 # Quick Start Guide - Julia Set CUDA
 
-## On Your RHEL 9 System with Tesla P100
+## On RHEL 9 System with Tesla P100
 
-### 1. Download and Extract
+### 1. Go to the project julia
 
 ```bash
-# Extract the archive
-tar -xzf julia_set_cuda_full.tar.gz
 
 # Navigate to directory
 cd julia_set_cuda/
@@ -26,7 +24,7 @@ export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
 
-### 3. Run Setup Script (Recommended)
+### 3. Run Setup Script
 
 ```bash
 chmod +x setup.sh
@@ -154,19 +152,5 @@ Compare with:
 - Different resolutions
 - Different MAX_ITER values
 - Different Julia constants
-
-## Adding to Portfolio
-
-This project demonstrates:
-✓ Pure CUDA C programming
-✓ Direct GPU computation (no CPU comparison overhead)
-✓ Memory-efficient algorithm design
-✓ Performance optimization techniques
-✓ Professional documentation
-✓ Visual verification of results
-
-Perfect for showcasing GPU computing expertise!
-
----
 
 **Questions?** Check TECHNICAL_DETAILS.md for in-depth explanations.
